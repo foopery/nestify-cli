@@ -1,0 +1,25 @@
+{
+  "name": "foopery-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "nestify": "dist/main.js"
+  },
+  "scripts": {
+    "start:dev": "tsc-watch --onSuccess \"node dist/main.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "reflect-metadata": "^0.2.2",
+    "ts-node": "^10.9.2",
+    "typedi": "^0.10.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3",
+    "tsc-watch": "^6.2.0"
+  }
+}
