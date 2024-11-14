@@ -1,5 +1,5 @@
 {
-  "name": "nestify-cli",
+  "name": "@inhanbyeol/nestify-cli",
   "version": "0.0.0",
   "main": "main.js",
   "bin": {
