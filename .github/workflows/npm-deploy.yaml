@@ -32,3 +32,6 @@ jobs:
           jq ".version = \"$VERSION\"" package.json > tmp.json && mv tmp.json package.json
           echo "New version: $VERSION"
         shell: bash
+
+      - name: ls
+        run: ls -la
