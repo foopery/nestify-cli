@@ -38,4 +38,5 @@ jobs:
           ls -a \
           && rm -rf src \
           && mv dist/* . \
+          && rm -rf dist \
           && ls -a
