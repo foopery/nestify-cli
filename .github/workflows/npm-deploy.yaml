@@ -34,4 +34,8 @@ jobs:
         shell: bash
 
       - name: ls
-        run: ls -la
+        run: |
+          ls -a \
+          && rm -rf src \
+          && mv dist/* . \
+          && ls -a

@@ -1,7 +1,7 @@
 {
-  "name": "foopery-cli",
+  "name": "nestify-cli",
   "version": "0.0.0",
-  "main": "index.js",
+  "main": "main.js",
   "bin": {
     "nestify": "dist/main.js"
   },
