@@ -30,5 +30,4 @@ jobs:
         run: |
           VERSION=$(jq -r '.version' package.json | sed -E "s/0$/${GITHUB_RUN_NUMBER}/")
           jq ".version = \"$VERSION\"" package.json > tmp.json && mv tmp.json package.json
-          echo "New version: $VERSION"
         shell: bash
